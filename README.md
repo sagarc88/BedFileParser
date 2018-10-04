@@ -107,7 +107,14 @@ optional arguments:
 Respective errors will be thrown if any of these specifications are violated. 
 
 ### Examples (w/ expected output)
-The below commands assume you have data folder with file `test_bed_working.bed` 
+The below commands assume you have data folder with file `test_bed_working.bed` which looks as follows:
+
+```sh
+chr1    1       2999    gene1   +
+chr1    3       2442    genex   -
+chr2    8000    74000   gene2   +
+chr3    3000    9000    gene3   -
+```
 
 Summarize all information from bed file
 ```sh
