@@ -1,6 +1,6 @@
 # BedFileParser
 
-[![Build Status](https://travis-ci.com/sagarc88/BedFileParser.svg?branch=master)](https://travis-ci.com/sagarc88/BedFileParser)
+[![Build Status](https://travis-ci.com/sagarc88/BedFileParser.svg?branch=master)](https://travis-ci.com/sagarc88/BedFileParser) [![Python Versions](https://img.shields.io/badge/Python-2.6%20%7C%203.6%20%7C%203.7--dev-blue.svg)
 
 BedFileParser is a tool to read BED files and allows you to subset or summarize it. It includes following features
   - Read BED file and parse according to specifications.
