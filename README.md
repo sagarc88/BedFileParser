@@ -11,14 +11,15 @@ BedFileParser is a tool to read BED files and allows you to subset or summarize 
 
 # Installation
 
-BedFileParser requires pandas library to run. Use pip to install dependencies and package
+BedFileParser requires pandas library to run. Use pip to install dependencies and package.
 
 Start with downloading the zip file from github. Once downloaded, unzip to a directory called BedFileParser. Then follow below prompts:
 ```sh
 $ cd BedFileParser
+$ pip install -r requirements.txt
 $ pip install -e .
 ```
-This will build the package and install it on system-wide level. 
+This will build the package and install it on system-wide level. This package has been tested for compatibility on Python 2.7, 3.6 and 3.7-dev. 
 
 # Testing
 
